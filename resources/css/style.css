@@ -68,7 +68,7 @@ a {
   span {
     display: none;
   }
-  
+
   .mobile-nav {
     display: flex;
     justify-content: flex-end;
@@ -112,6 +112,29 @@ a {
   .headline h1 {
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .main-banner {
+    height: 17rem;
+  }
+
+  .headline {
+    display: block;
+    margin: 9rem 0 0 0;
+    flex-grow: 1;
+  }
+
+  .headline h1 {
+    padding: 1rem auto;
+    font-size: 1.33rem;
+  }
+
+  .flex-container .headline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
