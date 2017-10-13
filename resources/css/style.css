@@ -104,3 +104,47 @@ nav a {
 .fittings img {
   width: 5rem;
 }
+
+/* Business Description Section */
+.business-descrip {
+  display: flex;
+}
+
+.philosophy,
+.appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.title  {
+  background-color: cadetblue;
+  width: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.philosophy,
+.appointments p {
+  margin-bottom: 5rem;
+}
+
+/*** Footer Section ***/
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
