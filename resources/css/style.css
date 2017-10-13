@@ -50,11 +50,30 @@ nav {
   flex-grow: 1;
 }
 
-nav a {
+a {
   margin: 1rem 2rem;
   text-decoration: none;
   color: white;
+}
 
+.mobile-nav  {
+  display: none;
+}
+
+@media only screen and (max-width: 630px) {
+  nav {
+    display: none;
+  }
+
+  span {
+    display: none;
+  }
+  
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
 }
 
 /* Main Banner Container */
