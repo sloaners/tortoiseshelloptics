@@ -70,3 +70,37 @@ nav a {
   font-weight: bold;
   padding: 1.5rem 5rem;
 }
+
+/*** Main Section ***/
+/* Logo Section */
+
+.business-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  margin: 3rem 6rem;
+  height: 8rem;
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between
+}
+
+.info h3 {
+  text-align: center;
+}
+
+.info img {
+  width: 3.5rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.fittings img {
+  width: 5rem;
+}
