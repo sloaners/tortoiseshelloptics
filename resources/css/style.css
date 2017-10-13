@@ -18,6 +18,17 @@ body {
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 970px) {
+  .container {
+    width: 100%;
+  }
+
+  .flex-container {
+    width: 100%;
+  }
+}
+
+
 /*** Main Banner Section  ***/
 /* Header Bar */
 
@@ -60,7 +71,6 @@ nav a {
 .headline {
   background-color: white;
   display: inline-block;
-
   margin-top: 10rem;
 }
 
@@ -69,6 +79,21 @@ nav a {
   line-height: 1.2;
   font-weight: bold;
   padding: 1.5rem 5rem;
+}
+
+@media only screen and (max-width: 970px) {
+  .main-banner {
+    height: 22rem;
+  }
+
+  .headline {
+    margin: 5rem 2rem 0 0;
+  }
+
+  .headline h1 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
 }
 
 /*** Main Section ***/
@@ -137,6 +162,11 @@ nav a {
   margin-bottom: 5rem;
 }
 
+@media only screen and (max-width: 960px) {
+  .business-descrip {
+    justify-content: center;
+  }
+}
 /*** Footer Section ***/
 footer {
   background-color: azure;
