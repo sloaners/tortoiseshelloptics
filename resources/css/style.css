@@ -11,6 +11,13 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
 /*** Main Banner Section  ***/
 /* Header Bar */
 
@@ -37,4 +44,29 @@ nav a {
   text-decoration: none;
   color: white;
 
+}
+
+/* Main Banner Container */
+
+.main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+    justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  display: inline-block;
+
+  margin-top: 10rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
 }
