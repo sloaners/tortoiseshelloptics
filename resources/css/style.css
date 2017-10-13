@@ -235,6 +235,35 @@ a {
 .appointments p {
   margin-bottom: 5rem;
 }
+
+@media only screen and (max-width: 672px) {
+  .business-descrip {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .philosophy,
+  .appointments {
+    width: 100%;
+    /
+  }
+
+  .title {
+    width: 100%
+  }
+
+  .title h2 {
+    text-align: center;
+  }
+
+  .philosophy,
+  .appointments p {
+    margin: 1rem auto 4rem auto;
+    font-size: 0.77rem;
+  }
+}
+
 /*** Footer Section ***/
 footer {
   background-color: azure;
@@ -245,4 +274,20 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+@media only screen and (max-width: 672px) {
+  footer h4 {
+    display: none;
+  }
+
+  footer img {
+    padding: 4rem 0 4rem 0;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+
 }
