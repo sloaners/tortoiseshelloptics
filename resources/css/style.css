@@ -133,6 +133,7 @@ nav a {
 /* Business Description Section */
 .business-descrip {
   display: flex;
+  justify-content: center;
 }
 
 .philosophy,
@@ -160,12 +161,6 @@ nav a {
 .philosophy,
 .appointments p {
   margin-bottom: 5rem;
-}
-
-@media only screen and (max-width: 960px) {
-  .business-descrip {
-    justify-content: center;
-  }
 }
 /*** Footer Section ***/
 footer {
